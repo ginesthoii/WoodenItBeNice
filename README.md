@@ -1,13 +1,32 @@
 ![WIP](https://img.shields.io/badge/status-Work_in_Progress-yellow?style=for-the-badge&logoColor=white)
 
-# WoodenItBeNice
-DIY woodworking meets code.
+<p align="center">
+<img width="690" height="350" alt="Image" src="https://github.com/user-attachments/assets/869d7249-6771-4aad-852e-5cc0d8964d4d" alt="Banner""/>
+</p>
+
+<h1 align="center">Projects</h1>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/89ac4313-c0f9-497c-93c9-f33584bc5dbb" alt="Terminal GIF" height="420" width="420"/>
+</p>
+<br>
+
+**WoodenItBeNice** is my corner of GitHub for woodworking projects, plans, and experiments.  
+Think *cut lists meet code snippets*.  
+
+Here you’ll find:  
+- **DIY project plans** (from shelves to knife-throwing boards)  
+- **Cut lists + material breakdowns** in Markdown/CSV/JSON  
+- **Scripts** (Python/JS) to calculate cuts, generate QR codes, or track inventory  
+- **CAD files** (FreeCAD, SketchUp, Blender exports)  
+- Optional React/Vite app for browsing builds + instructions
+
+<br> <br>
+
+<h1 align="center">SideScripts</h1>
 
 <br>
-<br>
-<br>
-
-<h1>SideScripts</h1>
 
 # DIY Woodworking Cut List Generator
 
@@ -83,3 +102,12 @@ If you have an idea for an improvement or a new language implementation, feel fr
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d9f2b5e-6ff4-4fc2-ae50-b9fc153e6a58" alt="image" height="320" width="320"/>
+</p>
+
+
+
