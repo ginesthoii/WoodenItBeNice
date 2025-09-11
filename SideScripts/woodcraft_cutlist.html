@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Woodworking Cut List Generator</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        .input-group { margin-bottom: 10px; }
+        label { display: inline-block; width: 150px; }
+        input { width: 100px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Woodworking Cut List Generator</h1>
+
+    <div class="input-group">
+        <label for="partName">Part Name:</label>
+        <input type="text" id="partName">
+    </div>
+    <div class="input-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+    </div>
+    <div class="input-group">
+        <label for="thickness">Thickness (in):</label>
+        <input type="number" id="thickness" step="0.01">
+    </div>
+    <div class="input-group">
+        <label for="width">Width (in):</label>
+        <input type="number" id="width" step="0.01">
+    </div>
+    <div class="input-group">
+        <label for="length">Length (ft):</label>
+        <input type="number" id="length" step="0.01">
+    </div>
+    <button onclick="addPart()">Add Part</button>
+
+    <h2>Cut List</h2>
+    <table id="cutListTable">
+        <thead>
+            <tr>
+                <th>Part</th>
+                <th>Qty</th>
+                <th>T(in)</th>
+                <th>W(in)</th>
+                <th>L(ft)</th>
+                <th>Bd.Ft.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here -->
+        </tbody>
+    </table>
+
+    <h3 id="totalBoardFeet">Total estimated board feet needed: 0.00 Bd.Ft.</h3>
+
+    <script>
+        let totalBoardFeet = 0;
+
+        function calculateBoardFeet(thickness_in, width_in, length_ft) {
+            if (thickness_in < 1) {
+                thickness_in = 1;
+            }
+            return (thickness_in * width_in * length_ft) / 12;
+        }
+
+        function addPart() {
+            const partName = document.getElementById("partName").value;
+            const quantity = parseInt(document.getElementById("quantity").value);
+            const thickness = parseFloat(document.getElementById("thickness").value);
+            const width = parseFloat(document.getElementById("width").value);
+            const length = parseFloat(document.getElementById("length").value);
+
+            if (partName && !isNaN(quantity) && !isNaN(thickness) && !isNaN(width) && !isNaN(length)) {
+                const partBoardFeet = calculateBoardFeet(thickness, width, length) * quantity;
+                totalBoardFeet += partBoardFeet;
+
+                const tableBody = document.querySelector("#cutListTable tbody");
+                const newRow = tableBody.insertRow();
+
+                newRow.insertCell(0).textContent = partName;
+                newRow.insertCell(1).textContent = quantity;
+                newRow.insertCell(2).textContent = thickness;
+                newRow.insertCell(3).textContent = width;
+                newRow.insertCell(4).textContent = length;
+                newRow.insertCell(5).textContent = partBoardFeet.toFixed(2);
+
+                document.getElementById("totalBoardFeet").textContent = `Total estimated board feet needed: ${totalBoardFeet.toFixed(2)} Bd.Ft.`;
+
+                // Clear input fields
+                document.getElementById("partName").value = '';
+                document.getElementById("quantity").value = '1';
+                document.getElementById("thickness").value = '';
+                document.getElementById("width").value = '';
+                document.getElementById("length").value = '';
+            } else {
+                alert("Please fill in all fields with valid numbers.");
+            }
+        }
+    </script>
+</body>
+</html>
