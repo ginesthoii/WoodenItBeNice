@@ -6,14 +6,11 @@
 
 <h1 align="center">Projects</h1>
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/89ac4313-c0f9-497c-93c9-f33584bc5dbb" alt="Terminal GIF" height="420" width="420"/>
+  WoodenItBeNice is my corner of GitHub for woodworking projects, plans, and experiments. <br> 
+Think cut lists meet code snippets.  
 </p>
 <br>
-
-**WoodenItBeNice** is my corner of GitHub for woodworking projects, plans, and experiments.  
-Think *cut lists meet code snippets*.  
 
 Here you’ll find:  
 - **DIY project plans** (from shelves to knife-throwing boards)  
@@ -22,13 +19,23 @@ Here you’ll find:
 - **CAD files** (FreeCAD, SketchUp, Blender exports)  
 - Optional React/Vite app for browsing builds + instructions
 
+---
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/89ac4313-c0f9-497c-93c9-f33584bc5dbb" alt="Terminal GIF" height="520" width="520"/>
+</p>
+
+---
+
 <br> <br>
 
 <h1 align="center">SideScripts</h1>
 
 <br>
 
-# DIY Woodworking Cut List Generator
+## DIY Woodworking Cut List Generator
 
 This repository contains basic code scripts in multiple languages to help with the planning and material estimation for DIY woodworking projects. The scripts generate a "cut list" of required wood pieces and calculate the total board footage needed.
 
@@ -103,7 +110,7 @@ If you have an idea for an improvement or a new language implementation, feel fr
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-
+<br><br>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4d9f2b5e-6ff4-4fc2-ae50-b9fc153e6a58" alt="image" height="320" width="320"/>
