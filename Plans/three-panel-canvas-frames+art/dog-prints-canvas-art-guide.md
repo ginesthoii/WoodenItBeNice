@@ -2,9 +2,11 @@
 
 ## DO NOT FORGET (Critical Setup)
 
+- Put cardboard underneath the canvas, fold it over and tape it taut to get it fully flat  
+- If the canvas is wrinkled, **lightly iron it before taping or painting**
 - Run painter’s paper underneath the border of the canvas and tape it down
 - Tape on top of the canvas around the outer border, leaving the center exposed to create a clean visual margin
-- Remove the tape after the paint dries, slowly
+- Remove the tape **after the paint dries**, slowly
 
 ---
 
@@ -76,10 +78,12 @@ For stronger prints with less smudging.
 - Let cool completely
 - Add food coloring
 
+
 ### Safety Note
 
-Non-toxic, but not edible-tasty  
-Supervise to prevent licking
+- Non-toxic, but not edible-tasty  
+- Supervise to prevent licking  
+- **Discard unused paint after the session; flour paint should not be stored to prevent mold**
 
 ---
 
@@ -330,7 +334,8 @@ Do not repeat excessively.
 - Wipe all paws immediately
 - Calm praise
 - Lead dog away
-- Let paint dry fully
+- Let paint dry fully.
+- Allow full cure before framing (at least 24 hours)
 
 ---
 
