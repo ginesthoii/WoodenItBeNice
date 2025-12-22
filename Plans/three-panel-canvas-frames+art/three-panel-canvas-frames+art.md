@@ -185,10 +185,44 @@ Repeat for all three frames.
 - Finish should be matte or eggshell
 - Let cure fully
 
-## Canvas Preparation
 
-- Wash drop cloth once with no fabric softener
-- Dry fully
+### Choose the Best Drop Cloth Weight
+
+Recommended weight: **10 oz canvas**
+
+Why:
+- Absorbs paint cleanly without bleeding
+- Holds structure when framed
+- Wrinkles less after washing
+- Looks closer to artist canvas or linen
+
+Avoid:
+- 6–8 oz (too thin, looks crafty, warps easily)
+- Plastic-backed or “dust sheet” styles
+
+If only one option is available, choose the **heaviest canvas that is still flexible**.
+
+---
+
+### Soften the Canvas (Make It Look Expensive)
+
+New drop cloth canvas is stiff because of factory sizing.
+
+To soften:
+1. Wash once in warm water
+2. Use **no fabric softener**
+3. Tumble dry on low or medium until fully dry
+4. Optional: repeat wash for extra softness
+
+Result:
+- Less stiffness
+- Better drape
+- More “linen-like” texture
+- Paint sits into fibers instead of on top
+
+Do this **before painting or framing**.
+
+## Canvas Preparation
 - Cut into three pieces slightly larger than frame openings
 
 ## Canvas Attachment
@@ -201,11 +235,49 @@ Repeat for all three frames.
 - Work outward toward corners
 - Trim excess fabric
 
+
+### Plan Wall Spacing (So It Looks Intentional)
+
+Recommended spacing:
+- **2–3 inches** between panels
+
+Layout method:
+1. Hang the center panel first
+2. Level it carefully
+3. Measure outward for the left and right panels
+4. Keep spacing equal, not “eyeballed”
+
+Rule of thumb:
+- Narrow spacing = modern, gallery feel
+- Wide spacing = casual, farmhouse feel
+
+Consistency matters more than the exact number.
+
 ## Hanging
 
 - Use D-rings, sawtooth hangers, or picture wire
-- Suggested spacing is 2 to 3 inches between panels
-- Level center panel first
+- Reminder: Suggested spacing is 2 to 3 inches between panels
+- Reminder: Level center panel first
+
+
+### Choose Frame Thickness (Optional Chunkier Look)
+
+Standard look:
+- 1×2 boards (actual ~0.75" × 1.5")
+- Clean, minimal, modern
+
+Chunkier option:
+- 1×3 boards (actual ~0.75" × 2.5")
+
+Use thicker frames if:
+- The wall is large
+- The panels are oversized
+- You want more visual weight
+
+Avoid going thicker than 1×3 unless the art is very large.
+
+Paint color matters more than thickness for perceived weight.
+
 
 ## Notes
 
@@ -221,7 +293,6 @@ Repeat for all three frames.
 - Leave wood unpainted
 - Add hardboard backing instead of stapling canvas
 
-- 
 
 ### One Frame Assembled (Top View)
 
@@ -248,10 +319,7 @@ Depth comes from the 1x2 frame thickness (~1.5").
 └──────────┘  └──────────┘  └──────────┘
 ```
 
-Suggested spacing:
-- 2–3 inches between panels
-
-Level the center panel first.
+Reminder: Suggested spacing: 2–3 inches between panels & level the center panel first.
 
 ---
 
